@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>Portofolio</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+    <!-- AOS JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <nav>
+        <label class="logo">My portofolio</label>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#portofolio">portofolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+
+    <div class="top-wrapper">
+        <div id="home" class="home">
+            <h1 data-aos="fade-up" data-aos-duration="5000">HELLO WORLD.</h1>
+            <h3 data-aos="fade-up" data-aos-duration="5000">I'm Aqil Farros Al Ghonim</h3>
+            <p data-aos="fade-up" data-aos-duration="5000">IDN boarding school Sentul <span class="span1"><span
+                        class="span2">X RPL</span></span></p>
+            <a href="#about" class="button">MORE ABOUT ME <span class="fa fa-chevron-down"></span></a>
+            <ul data-aos="fade-up" data-aos-duration="5000">
+                <li><a href="#"><span class="fa fa-google"></span></a></li>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="#"><span class="fa fa-github"></span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <h5 class="text2">ABOUT</h5>
+        <h3 class="text2 t1">Let me introduce myself</h3>
+        <div class="introduce-container">
+            <div class="introduce" data-aos="fade-right" data-aos-duration="5000">
+                <img src="assets/Faros.png" alt="" width="300px" height="500px" style="margin-top: -100px;"
+                    data-aos="fade-up" data-aos-duration="5000">
+            </div>
+            <div class="introduce-text">
+                <div class="profile">
+                    <h2 class="text2" data-aos="fade-up" data-aos-duration="5000">Profile</h2>
+                    <p class="text2" data-aos="fade-up" data-aos-duration="5000">My name is Aqil Farros Al Ghonim.
+                        I am born at 08 July 2008 in Batam and live in Batam too.
+                        Now I'm studying at IDN boarding school Sentul and taking programmer for my main class.
+                        This is skill what I have learnt in IDN boarding school Sentul:
+                    </p>
+                </div>
+                <h2 class="text2" data-aos="fade-up" data-aos-duration="5000">Skills</h2>
+                <div class="skill-program" data-aos="fade-up" data-aos-duration="5000">
+                    <h3 class="text2">Programming langguage</h3>
+                    <p class="text2">HTML</p>
+                    <p class="text2">CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="skills">
+        <div class="title">
+            <h1 class="text2">Skills</h1>
+        </div>
+        <div class="list">
+            <h1 class="text2">Programming langguage</h1>
+        </div>
+        <div class="myskills">
+            <div class="myskills-container">
+                <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
+                    <img src="assets/10 Best Cheat Sheets That A Programmer Must Have.png" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="hidden text2">My first programming language</div>
+                    </div>
+                </div>
+                <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
+                    <img src="assets/CSS3 Badge with CSS text.png" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="hidden text2">My second programming language</div>
+                    </div>
+                </div>
+                <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
+                    <img src="assets/javascript.png" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="hidden text2">My third programming language but now only little</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+                <h3>HTML</h3>
+                <div class="bar-box">
+                    <div class="bar-sectionHTML"></div>
+                    <p class="text2">70%</p>
+                </div>
+            </div>
+            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+                <h3>CSS</h3>
+                <div class="bar-box">
+                    <div class="bar-sectionCSS"></div>
+                    <p class="text2">60%</p>
+                </div>
+            </div>
+            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+                <h3>Javascript</h3>
+                <div class="bar-box">
+                    <div class="bar-sectionJS"></div>
+                    <p class="text2">2%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portofolio" class="portofolio">
+        <h1 class="text2 title">Portofolio</h1>
+        <h1 class="text2 list">My certificate</h1>
+        <div class="certificate">
+            <div class="certificate-container">
+                <div class="certificate-box" data-aos="fade-up" data-aos-duration="5000">
+                    <img src="assets/sertifikat dicoding_page-0001.jpg" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="text2 hidden">Basic programming certificate</div>
+                    </div>
+                </div>
+                <div class="certificate-box" data-aos="fade-bottom" data-aos-duration="5000">
+                    <img src="assets/sertifikat dicoding logika pemograman_page-0001.jpg" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="text2 hidden">Programming logic certificate</div>
+                    </div>
+                </div>
+                <div class="certificate-box" data-aos="fade-right" data-aos-duration="5000">
+                    <img src="assets/sertifikat dicoding visualisasi data_page-0001.jpg" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="text2 hidden">Data visualization basics certificate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text2 list">My project</h1>
+        <div class="project">
+            <div class="project-container" data-aos="fade-right" data-aos-duration="5000">
+                <div class="project-box">
+                    <img src="assets/gambar1.png" alt="">
+                    <div class="bg"></div>
+                    <div class="hidden-text">
+                        <div class="hidden text2">Upin and Ipin card Project</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h1 class="text2 title">Contact me!</h1>
+        <h2 class="text2 list">If you want to know more about me</h2>
+        <div class="contact-list">
+            <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
+                <div class="icon-box">
+                    <img src="assets/Desain tanpa judul (1).png" alt="">
+                </div>
+                <div class="icon-text">
+                    <h3>aqilghonim@gmail.com</h3>
+                </div>
+            </div>
+            <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
+                <div class="icon-box">
+                    <img src="assets/Desain tanpa judul.png" alt="">
+                </div>
+                <div class="icon-text">
+                    <h3>blablablablabla</h3>
+                </div>
+            </div>
+            <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
+                <div class="icon-box">
+                    <img src="assets/Desain tanpa judul (2).png" alt="">
+                </div>
+                <div class="icon-text">
+                    <h3>@aqilfag</h3>
+                </div>
+            </div>
+            <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
+                <div class="icon-box">
+                    <img src="assets/Social_Media_Linkedin_Vector_PNG_Images__Linkedin_Social_Media_Icon__Linkedin_Icons__Social_Icons__Media_Icons_PNG_Image_For_Free_Download-removebg-preview.png"
+                        alt="">
+                </div>
+                <div class="icon-text">
+                    <h3>Aqil Farros Al Ghonim</h3>
+                </div>
+            </div>
+            <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
+                <div class="icon-box">
+                    <img src="assets/Jobspresso.png" alt="">
+                </div>
+                <div class="icon-text">
+                    <h3>AqilFarros</h3>
+                </div>
+            </div>
+        </div>
+        <h3 class="text2 cp">Copyright &copy 2023 Aqil Farros Al Ghonim. All Rights Reserved </h3>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
