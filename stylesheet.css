@@ -74,7 +74,7 @@ nav {
     width: 100%;
     background-image: url(assets/Wallpaper\ dark\ starry\ sky\ space\ stars.jpg);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 label.logo {
@@ -652,7 +652,8 @@ li {
 
 .project-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .project-box {
@@ -663,7 +664,7 @@ li {
     overflow: hidden;
     border-radius: 5%;
     box-shadow: 0 0 10px gray;
-    border-bottom: 5px solid crimson;
+    border-bottom: 5px solid darkblue;
     transition: all .5s ease;
 }
 
@@ -698,6 +699,35 @@ li {
 
 .project-box:hover .hidden {
     opacity: 1;
+}
+
+.project-container a {
+    font-size: 2em;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: whitesmoke;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.project-container a::before {
+    content:'' ;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    background-color: darkblue;
+    left: 0;
+    top: 0;
+    transition: .5s all;
+    z-index: -1;
+}
+
+.project-container a:hover::before {
+    width: 100%;
 }
 
 @media screen and (max-width: 700px) {
