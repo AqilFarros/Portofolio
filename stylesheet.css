@@ -83,6 +83,13 @@ label.logo {
     color: white;
     padding: 0 100px;
     line-height: 80px;
+    text-shadow: 0 0 20px white;
+    word-spacing: -10px;
+}
+
+label.logo span {
+    color: crimson;
+    text-shadow: 0 0 20px crimson;
 }
 
 nav ul {
@@ -289,7 +296,7 @@ ul .fa {
 
 .home li .fa:hover {
     color: crimson;
-    text-shadow: 0 0 20px crimson;
+    text-shadow: 0 0 20px white;
 }
 
 @media screen and (max-width: 700px) {
