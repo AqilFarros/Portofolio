@@ -23,13 +23,13 @@
 <body>
     <!-- NAVBAR -->
     <nav>
-        <label class="logo"><span>My</span> portfolio</label>
+        <label class="logo"><span class="red-text">My</span> portfolio</label>
         <ul>
-            <li><a href="#top-wrapper">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="#portofolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a class="list" href="#top-wrapper">home</a></li>
+            <li><a class="list" href="#about">about</a></li>
+            <li><a class="list" href="#skills">skills</a></li>
+            <li><a class="list" href="#portofolio">portfolio</a></li>
+            <li><a class="list" href="#contact">contact</a></li>
         </ul>
         <label id="icon">
             <i class="fa fa-bars"></i>
@@ -37,33 +37,33 @@
     </nav>
 
     <!-- HOME -->
-    <div class="top-wrapper" id="top-wrapper">
-        <div id="home" class="home">
-            <h1 data-aos="fade-up" data-aos-duration="5000">HELLO WORLD.</h1>
-            <h3 data-aos="fade-up" data-aos-duration="5000">I'm Aqil Farros Al Ghonim</h3>
-            <p data-aos="fade-up" data-aos-duration="5000">IDN boarding school Sentul <span class="span1"><span
+    <div class="top-wrapper section" id="top-wrapper">
+        <div id="home" class="home" data-aos="fade-up" data-aos-duration="5000">
+            <h1 class="opacity">HELLO WORLD.</h1>
+            <h3 class="opacity">I'm Aqil Farros Al Ghonim</h3>
+            <p class="opacity">IDN boarding school Sentul <span class="span1"><span
                         class="span2">X RPL</span></span></p>
-            <div class="..." data-aos="fade-up" data-aos-duration="5000">
-                <a href="#about" class="button">MORE ABOUT ME <span class="fa fa-chevron-down"></span></a>
+            <div class="...">
+                <a href="#about" class="button opacity" style="--clr:#0074D9"> <span class="fa fa-chevron-down"><span>MORE ABOUT ME</span></span><i></i></a>
             </div>
             <ul data-aos="fade-up" data-aos-duration="5000">
-                <li><a href="#"><span class="fa fa-google"></span></a></li>
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                <li><a href="#"><span class="fa fa-github"></span></a></li>
+                <li><a href="#" class="opacity"><span class="fa fa-google"></span></a></li>
+                <li><a href="#" class="opacity"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#" class="opacity"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="#" class="opacity"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="#" class="opacity"><span class="fa fa-github"></span></a></li>
             </ul>
         </div>
     </div>
 
     <!-- ABOUT -->
-    <div id="about" class="about">
+    <div id="about" class="about section">
         <h5 class="text2">ABOUT</h5>
         <h3 class="text2 t1">Let me introduce myself</h3>
         <div class="introduce-container">
             <div class="introduce" data-aos="fade-right" data-aos-duration="5000">
-                <img src="assets/Faros.png" alt="Aqil Farros Al Ghonim" width="300px" height="500px" style="margin-top: -100px;"
-                    data-aos="fade-up" data-aos-duration="5000">
+                <img src="assets/Faros.png" alt="Aqil Farros Al Ghonim" width="300px" height="500px"
+                    style="margin-top: -100px;" data-aos="fade-up" data-aos-duration="5000">
             </div>
             <div class="introduce-text">
                 <div class="profile">
@@ -85,8 +85,8 @@
     </div>
 
     <!-- SKILLS -->
-    <div id="skills" class="skills">
-        <div class="title">
+    <div  class="skills section">
+        <div class="title" id="skills">
             <h1 class="text2">Skills</h1>
         </div>
         <div class="list">
@@ -94,83 +94,125 @@
         </div>
         <div class="myskills">
             <div class="myskills-container">
-                <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
-                    <img src="assets/HTML.png" alt="HTML">
-                    <div class="bg"></div>
-                    <div class="hidden-text">
-                        <div class="hidden text2">My first programming language</div>
+                <div class="image-box" data-aos="fade-down-right" data-aos-duration="5000">
+                    <div class="box">
+                        <img src="assets/HTML.png" alt="HTML">
+                        <div class="bg"></div>
+                        <div class="hidden-text">
+                            <div class="hidden text2">My first programming language</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box" data-aos="fade-up-right" data-aos-duration="5000">
+                    <div class="box">
+                        <img src="assets/CSS3 Badge with CSS text.png" alt="CSS">
+                        <div class="bg"></div>
+                        <div class="hidden-text">
+                            <div class="hidden text2">My second programming language</div>
+                        </div>
                     </div>
                 </div>
                 <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
-                    <img src="assets/CSS3 Badge with CSS text.png" alt="CSS">
-                    <div class="bg"></div>
-                    <div class="hidden-text">
-                        <div class="hidden text2">My second programming language</div>
-                    </div>
-                </div>
-                <div class="image-box" data-aos="fade-right" data-aos-duration="5000">
-                    <img src="assets/javascript.png" alt="Javascript">
-                    <div class="bg"></div>
-                    <div class="hidden-text">
-                        <div class="hidden text2">My third programming language but now only little</div>
+                    <div class="box">
+                        <img src="assets/javascript.png" alt="Javascript">
+                        <div class="bg"></div>
+                        <div class="hidden-text">
+                            <div class="hidden text2">My third programming language but now only little</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="bar">
-            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+            <div class="bar-container" data-aos="fade-down-right" data-aos-duration="5000">
                 <h3>HTML</h3>
                 <div class="bar-box">
                     <div class="bar-sectionHTML"></div>
-                    <p class="text2">70%</p>
+                    <p class="text2"><span class="persent" data-val="70">00</span>%</p>
                 </div>
             </div>
-            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+            <div class="bar-container" data-aos="fade-down-right" data-aos-duration="5000">
                 <h3>CSS</h3>
                 <div class="bar-box">
                     <div class="bar-sectionCSS"></div>
-                    <p class="text2">60%</p>
+                    <p class="text2"><span class="persent" data-val="60">00</span>%</p>
                 </div>
             </div>
-            <div class="bar-container" data-aos="fade-bottom" data-aos-duration="4000">
+            <div class="bar-container" data-aos="fade-down-right" data-aos-duration="5000">
                 <h3>Javascript</h3>
                 <div class="bar-box">
                     <div class="bar-sectionJS"></div>
-                    <p class="text2">2%</p>
+                    <p class="text2"><span class="persent" data-val="10">00</span>%</p>
                 </div>
             </div>
+        </div>
+        <div class="timeline" data-aos="fade-bottom" data-aos-duration="4000">
+            <!-- <div class="container left" data-aos="fade-bottom" data-aos-duration="4000">
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, assumenda voluptatem, saepe
+                    facilis earum ullam magnam quae voluptatibus asperiores inventore animi dolorem reiciendis
+                    reprehenderit illo quidem quo maxime illum. Nisi?
+                </div>
+            </div>
+            <div class="container right" data-aos="fade-bottom" data-aos-duration="4000">
+                <div class="content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum magnam vero, velit ipsam animi
+                    reprehenderit? Quisquam veniam expedita sit necessitatibus molestiae. Cum rerum quasi, explicabo
+                    asperiores laudantium odio dolorem aperiam.
+                </div>
+            </div>
+            <div class="container left" data-aos="fade-bottom" data-aos-duration="4000">
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, laudantium, velit tempore
+                    magni
+                    harum quod ullam ad veritatis placeat eveniet, beatae repudiandae dignissimos saepe dolore
+                    perferendis sint. Provident, temporibus eveniet!
+                </div>
+            </div>
+            <div class="container right" data-aos="fade-bottom" data-aos-duration="4000">
+                <div class="content">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum consequuntur beatae minus
+                    atque
+                    laboriosam, excepturi quae eveniet, ipsa necessitatibus animi explicabo voluptates facilis
+                    sequi?
+                    Illum reprehenderit qui veritatis ducimus repellendus?
+                </div>
+            </div> -->
         </div>
     </div>
 
     <!-- PORTOFOLIO -->
-    <div id="portofolio" class="portofolio">
-        <h1 class="text2 title">Portofolio</h1>
+    <div  class="portofolio section">
+        <h1 class="text2 title" id="portofolio">Portofolio</h1>
         <h1 class="text2 list">My certificate</h1>
         <div class="certificate">
             <div class="certificate-container">
-                <div class="certificate-box" data-aos="fade-up" data-aos-duration="5000">
+                <div class="certificate-box" data-aos="fade-right" data-aos-duration="10000">
                     <img src="assets/sertifikat dicoding_page-0001.jpg" alt="Basic programming certificate">
                     <div class="bg"></div>
                     <div class="hidden-text">
                         <div class="text2 hidden">Basic programming certificate</div>
                     </div>
                 </div>
-                <div class="certificate-box" data-aos="fade-bottom" data-aos-duration="5000">
-                    <img src="assets/sertifikat dicoding logika pemograman_page-0001.jpg" alt="Programming logic certificate">
+                <div class="certificate-box" data-aos="fade-up" data-aos-duration="10000">
+                    <img src="assets/sertifikat dicoding logika pemograman_page-0001.jpg"
+                        alt="Programming logic certificate">
                     <div class="bg"></div>
                     <div class="hidden-text">
                         <div class="text2 hidden">Programming logic certificate</div>
                     </div>
                 </div>
-                <div class="certificate-box" data-aos="fade-right" data-aos-duration="5000">
-                    <img src="assets/sertifikat dicoding visualisasi data_page-0001.jpg" alt="Data visualization basics certificate">
+                <div class="certificate-box" data-aos="fade-right" data-aos-duration="10000">
+                    <img src="assets/sertifikat dicoding visualisasi data_page-0001.jpg"
+                        alt="Data visualization basics certificate">
                     <div class="bg"></div>
                     <div class="hidden-text">
                         <div class="text2 hidden">Data visualization basics certificate</div>
                     </div>
                 </div>
-                <div class="certificate-box" data-aos="fade-right" data-aos-duration="5000">
-                    <img src="assets/Sertifikat belajar dasar pemograman web_page-0001.jpg" alt="Basic web programming certificate">
+                <div class="certificate-box" data-aos="fade-up" data-aos-duration="10000">
+                    <img src="assets/Sertifikat belajar dasar pemograman web_page-0001.jpg"
+                        alt="Basic web programming certificate">
                     <div class="bg"></div>
                     <div class="hidden-text">
                         <div class="text2 hidden basic">Basic web programming certificate</div>
@@ -180,7 +222,7 @@
         </div>
         <h1 class="text2 list">My project</h1>
         <div class="project">
-            <div class="project-container" data-aos="fade-right" data-aos-duration="5000">
+            <div class="project-container" data-aos="zoom-in-down" data-aos-duration="5000">
                 <div class="project-box">
                     <img src="assets/gambar1.png" alt="Upin and Ipin cards">
                     <div class="bg"></div>
@@ -188,14 +230,15 @@
                         <div class="hidden text2">Upin and Ipin card Project</div>
                     </div>
                 </div>
-                <a href="https://aqilfarros.github.io/Upin-Ipin.github.io/#" target="_blank" class="text2">Go to the website</a>
+                <a href="https://aqilfarros.github.io/Upin-Ipin.github.io/#" target="_blank" class="text2" style="--clr:darkblue"><span>Go to the
+                    website</span><i></i></a>
             </div>
         </div>
     </div>
 
     <!-- CONTACT -->
-    <div id="contact" class="contact">
-        <h1 class="text2 title">Contact me!</h1>
+    <div  class="contact section ">
+        <h1 class="text2 title" id="contact">Contact me!</h1>
         <h2 class="text2 list">If you want to know more about me</h2>
         <div class="contact-list">
             <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
@@ -224,8 +267,7 @@
             </div>
             <div class="contact-box" data-aos="fade-right" data-aos-duration="5000">
                 <div class="icon-box">
-                    <img src="assets/linkedin.png"
-                        alt="Linkedin">
+                    <img src="assets/linkedin.png" alt="Linkedin">
                 </div>
                 <div class="icon-text">
                     <h3>Aqil Farros Al Ghonim</h3>
@@ -249,6 +291,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
